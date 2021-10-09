@@ -1,0 +1,27 @@
+{
+    "manifest_version": 3,
+    "name": "Pomodoro Clock",
+    "description": "Timer to notify users to take breaks in increments of 25 minutes",
+    "version": "1.0",
+    "background":{
+      "service_worker": "background.js"
+    },
+    "permissions": ["activeTab", "declarativeContent", "storage", "scripting"],
+    "content_scripts": [],
+    "action":{
+      "default_popup": "popup.html",
+      "default_icon":{
+        "16": "./images/apple.png",
+        "32": "./images/apple.png",
+        "48": "./images/apple.png",
+        "128": "./images/apple.png"
+      }
+    },
+    "icons": {
+      "16": "./images/apple.png",
+      "32": "./images/apple.png",
+      "48": "./images/apple.png",
+      "128": "./images/apple.png"
+    }
+}
+

@@ -1,0 +1,69 @@
+
+body{
+  background: tomato;
+  height: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  background: tomato;
+  border-radius: 10px;
+
+  text-align: center;
+}
+.clock{
+  display: flex;
+  flex-direction: column;
+  border-radius: 10%;
+  align-items: center;
+  padding: 20px;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 100px;
+  opacity: 0.8;
+  background-color: tomato
+}
+
+.time{
+  font-size: 50px;
+  color: black;
+  background-color: white;
+  opacity: 0.9;
+  padding: 5px;
+}
+
+.controls{
+  font-size: 50px;
+  cursor: pointer;
+}
+
+.modal {
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  visibility: hidden;
+  z-index: 2;
+  opacity: 0.8;
+  transition: all 0.3s ease;
+  top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-close{
+  font-size: 15px;
+  border-radius: 5px;
+  top: 0;
+  cursor: pointer;
+  padding: 10px;
+}
+  
